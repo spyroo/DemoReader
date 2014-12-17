@@ -16,7 +16,7 @@ public class DemoReader {
 	public DemoReader(){
 		try {
 			
-			ArrayList<DemoGeneralInfo> demos = batchloadDemos(new File("testdemo.dem"), new File("D:\\Steam\\steamapps\\common\\Team Fortress 2\\tf\\match-20141213-2149-koth_pro_viaduct_rc4.dem"));
+			ArrayList<DemoGeneralInfo> demos = batchloadDemos(new File("testdemo.dem"), new File("D:/Steam/steamapps/common/Team Fortress 2/tf/match-20141213-2149-koth_pro_viaduct_rc4.dem"));
 			for(DemoGeneralInfo dem : demos){
 				System.out.println(dem.getClientName());
 			}
